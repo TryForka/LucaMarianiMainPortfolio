@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm --filter @workspace/drew-halle run build",
+  "buildCommand": "pnpm --filter @workspace/drew-halle run build && cp -r artifacts/drew-halle/dist dist",
   "outputDirectory": "dist",
   "framework": null,
   "rewrites": [
